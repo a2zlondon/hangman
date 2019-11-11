@@ -118,7 +118,7 @@ def game():
 		else:
 			print("Choose another")
 			
-		dear_hangman(letters_wrong)
+		draw_hangman(letters_wrong)
 		print(" ".join(clue))
 		print("Guesses: ", letters_tried)
 		
